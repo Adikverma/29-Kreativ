@@ -2,9 +2,9 @@
 body{overflow-x: hidden; }
 a, button {cursor: pointer; }
 
-/* -----------------------------------Top Bar--------------------------------- */
+/* -----------------------------------top bar--------------------------------- */
 .top-bar * {color: #fff; }
-.top-bar {width: 100%; height: 40px; padding: 12px 0px; background-color: #191919; }
+.top-bar {padding-top: 12px; padding-bottom: 9px; background-color: #191919; }
 .top-bar-contents {max-width: 1170px; margin: 0px auto; display: flex; justify-content: space-between; }
 .top-bar-contents:hover {cursor: default; }
 
@@ -19,40 +19,42 @@ a, button {cursor: pointer; }
 .top-bar-contents-end .top-texts {font-size: 12px; font-weight: 600; margin: 1.5px 0px 0px 6px; }
 .top-bar-contents-end .arrow-down {font-weight: 600; margin: 0px 0px 3px 3px; }
 
-/* -----------------------------------Header--------------------------------- */
+/* -----------------------------------head-bar--------------------------------- */
 .head-bar * {color: #fff; }
 .head-bar {background-image: linear-gradient(0deg, rgba(33,33,33,0.871), rgba(33,33,33,0.871)), url("images/header-back.png"); background-repeat: no-repeat; background-position: center; background-size: cover; color: #212121; }
 .head-bar-content {margin: auto; max-width: 1170px; }
 
-.head-bar-nav {height: 70px; padding-top: 17px; }
+.head-bar-nav {padding-top: 17px; overflow: hidden; }
 
 .pasco {font-size: 24px; margin-top: 0.5px; font-weight: 700; letter-spacing: 2px; float: left; }
 
 .head-bar-nav-mid {margin: 8px 0px 0px 94px; float: left; }
 .cool-menu {height: 44px; display: inline-block; font-weight: 700; font-size: 14px; margin-left: 11px; }
 .cool-menu:hover {border-bottom: 4px solid #ff4081; }
-.cool-menu>a {padding: 0px 0px 23px 13px; }
-.cool-menu>a>i {margin-left: 12px; font-weight: 700; font-size: 14px; }
+.cool-menu> a {padding: 0px 0px 23px 13px; }
+.cool-menu> a > i {margin-left: 12px; font-weight: 700; font-size: 14px; }
 .selected {border-bottom: 4px solid #ff4081; }
 
-.head-bar-nav-icons {height: 30px; float: right; display: flex; margin-top: 3px; }
+.head-bar-nav-icons {float: right; display: flex; margin-top: 3px; }
 .head-bar-nav-icons .head-nav-icons {border-right: 1px solid #707070; padding: 3px 10px 0px 12px; }
 .head-bar-nav-icons .last-icon  { border: none; margin-right: 3px; padding-left: 14px; }
 
-.head-bar-mid {margin-top: 211.5px; margin-left: 3px; text-align: center; }
+.head-bar-mid {margin-top: 211px; margin-left: 3px; text-align: center; }
 .head-bar-mid > h3 {color: #aeaeae; font-size: 21px; font-weight: 400; }
-.head-bar-mid > h1 {font-size: 42px; font-weight: 700; margin: 13px auto 29px auto; letter-spacing: 0.09rem; max-width: 850px; }
-.head-bar-mid > button {border: none; font-size: 18px; padding: 13px 28px 9px 26px; background-color: #303f9f; border-radius: 25px; }
+.head-bar-mid > h1 {font-size: 42px; font-weight: 700; margin: 12.5px auto 30px auto; letter-spacing: 1.44px; width: 70%; }
+.head-bar-mid > button {border: none; font-size: 18px; padding: 12px 29px 10px 25px; background-color: #303f9f; border-radius: 25px; }
 
-.head-bar-bottom .head-profile-pic {margin: 81px auto 0 auto; display: block; width: 50px; }
-.head-bar-bottom .head-profile-name {font-size: 14px; font-weight: 700; letter-spacing: 0.65px; margin-top: 16px; }
-.head-bar-bottom .samay {font-size: 11px; font-weight: 400; margin: 9px auto 30px auto; letter-spacing: 0.65px; }
-.samay .date {margin-right: 12px; }
+.head-bar-bottom {text-align: center; color: #bebebf; margin-top: 81px; overflow: hidden; }
+.head-bar-bottom > a {margin-left: auto; margin-right: auto; display: block; width: fit-content; }
+.head-profile-pic {width: 50px; margin-right: 2px; }
+.head-profile-name {font-size: 14px; font-weight: 700; letter-spacing: 0.6px; margin-top: 12px; padding-left: 1px; }
+.profile-date {font-size: 12px; font-weight: 400; margin-top: 9px; letter-spacing: 0.5px; padding-left: 2px; }
 
-.head-bar-bottom {text-align: center; color: #bebebf; }
-.head-bar-bottom > a {font-size: 12px; font-weight: 400; }
-.head-bar-bottom > a > i {font-size: 16px; margin-right: 8px; }
-.likes {margin-left: 15px; }
+.head-bar-bottom-links {margin: 29px auto 67px auto; justify-content: center; }
+.head-bar-social-list {margin: auto; display: inline-block; padding-right: 8px; }
+.head-bar-social-list > a {font-size: 12px; font-weight: 500; }
+.head-bar-social-list > a > i {font-size: 16px; margin-right: 7px; position: relative; top: 3px; } /* remove the position */
+#icon-likes {margin-right: 5px; margin-left: 31px; }
 
 /* ----------------------------------- Contents------------------------------ */
-.content-nav {width: 100%; height: 60px; background-color: rgb(172, 123, 123); }
+.content-nav {background-color: rgb(172, 123, 123); }
