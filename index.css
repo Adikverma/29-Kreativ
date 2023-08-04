@@ -41,20 +41,28 @@ a, button {cursor: pointer; }
 
 .head-bar-mid {margin-top: 211px; margin-left: 3px; text-align: center; }
 .head-bar-mid > h3 {color: #aeaeae; font-size: 21px; font-weight: 400; }
-.head-bar-mid > h1 {font-size: 42px; font-weight: 700; margin: 12.5px auto 30px auto; letter-spacing: 1.44px; width: 70%; }
+.head-bar-mid > h1 {font-size: 42px; font-weight: 900; margin: 12.5px auto 30px auto; letter-spacing: 0.84px; width: 72%; padding-left: 7px; }
 .head-bar-mid > button {border: none; font-size: 18px; padding: 12px 29px 10px 25px; background-color: #303f9f; border-radius: 25px; }
 
-.head-bar-bottom {text-align: center; color: #bebebf; margin-top: 81px; overflow: hidden; }
+.head-bar-bottom {text-align: center; margin-top: 81px; overflow: hidden; }
 .head-bar-bottom > a {margin-left: auto; margin-right: auto; display: block; width: fit-content; }
 .head-profile-pic {width: 50px; margin-right: 2px; }
 .head-profile-name {font-size: 14px; font-weight: 700; letter-spacing: 0.6px; margin-top: 12px; padding-left: 1px; }
-.profile-date {font-size: 12px; font-weight: 400; margin-top: 9px; letter-spacing: 0.5px; padding-left: 2px; }
+.profile-date {font-size: 12px; font-weight: 600; margin-top: 9px; letter-spacing: 0.5px; padding-left: 2px; color: #8c8c8c; }
 
 .head-bar-bottom-links {margin: 29px auto 67px auto; justify-content: center; }
 .head-bar-social-list {margin: auto; display: inline-block; padding-right: 8px; }
 .head-bar-social-list > a {font-size: 12px; font-weight: 500; }
-.head-bar-social-list > a > i {font-size: 16px; margin-right: 7px; position: relative; top: 3px; } /* remove the position */
-#icon-likes {margin-right: 5px; margin-left: 31px; }
+.head-bar-social-list > a > * {color: #bebebe; }
+.head-bar-social-list > a:not(:first-child) {margin-left: 31px; }
+.head-bar-social-list > a > i {font-size: 16px; margin-right: 7px; transform: translateY(3px); }
+#icon-likes {margin-right: 5px; }
 
 /* ----------------------------------- Contents------------------------------ */
-.content-nav {background-color: rgb(172, 123, 123); }
+.content-bar > * {color: black; background-color: #fff; }
+
+.content-nav-list {max-width: 1170px; margin: 14px auto 13px auto; }
+.content-nav-list-item {display: inline-block; font-weight: 700; font-size: 12px;  margin-left:  10px; }
+.content-nav-list :not(:first-child) {font-size: 12px; border-radius: 19px; background-color: #f5f5f5; padding: 7px 27px; font-weight: 400; }
+.content-nav-list-item > a {color: black; }
+.sort-selected {background-color: #fff; border: 1px solid blue; color: blue; padding: 7px 26px; }
