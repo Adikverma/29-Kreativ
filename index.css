@@ -50,7 +50,7 @@ a, button {cursor: pointer; }
 .head-profile-name {font-size: 14px; font-weight: 700; letter-spacing: 0.6px; margin-top: 12px; padding-left: 1px; }
 .profile-date {font-size: 12px; font-weight: 600; margin-top: 9px; letter-spacing: 0.5px; padding-left: 2px; color: #8c8c8c; }
 
-.head-bar-bottom-links {margin: 29px auto 67px auto; justify-content: center; }
+.head-bar-bottom-links {margin: 29px auto 66.5px auto; justify-content: center; }
 .head-bar-social-list {margin: auto; display: inline-block; padding-right: 8px; }
 .head-bar-social-list > a {font-size: 12px; font-weight: 500; }
 .head-bar-social-list > a > * {color: #bebebe; }
@@ -59,10 +59,13 @@ a, button {cursor: pointer; }
 #icon-likes {margin-right: 5px; }
 
 /* ----------------------------------- Contents------------------------------ */
+.content-bar {margin-top: 1px; overflow: hidden; background-color: #f5f5f5; }
 .content-bar > * {color: black; background-color: #fff; }
 
-.content-nav-list {max-width: 1170px; margin: 14px auto 13px auto; }
-.content-nav-list-item {display: inline-block; font-weight: 700; font-size: 12px;  margin-left:  10px; }
-.content-nav-list :not(:first-child) {font-size: 12px; border-radius: 19px; background-color: #f5f5f5; padding: 7px 27px; font-weight: 400; }
-.content-nav-list-item > a {color: black; }
-.sort-selected {background-color: #fff; border: 1px solid blue; color: blue; padding: 7px 26px; }
+.content-nav { overflow: hidden; filter: drop-shadow(0px 1px 0px #dddddd); }
+.content-nav-list {max-width: 1170px; cursor: default; margin: 16px auto 15px auto; }
+.content-nav-list-item {display: inline-block; font-weight: 700; font-size: 12px; margin-right: 6px; }
+.content-nav-list :not(:first-child) {font-size: 12px; letter-spacing: -0.1px; border-radius: 19px; background-color: #f5f5f5; padding: 8px 26px 6px 26px; font-weight: 600; cursor: pointer; margin-left: 10px; margin-right: 0px; }
+.sort-selected {background-color: #fff !important; border: 1px solid blue; color: blue; padding: 7.2px 25.2px 5.2px 25.2px !important; }
+
+.content-main {height: 420px; width: 820px; margin-top: 25px; }
