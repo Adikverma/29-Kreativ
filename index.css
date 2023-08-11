@@ -86,4 +86,4 @@ a {color: inherit; }
 .post-profile-info {color: inherit; float: left; display: flex; flex-direction: column; width:auto; margin-left: 10px; }
 .post-profile-name {margin-top: 7px; font-size: 12px; }
 .post-profile-date {margin-top: 7px; font-size: 10px; }
-.post-profile-options {width: 0px; height: 16px; border: 0px; border-left: 4px solid #212121; border-style: dotted; float: right; }
+.post-profile-options {width: 0px; height: 16px; border: 0px; border-left: 4px solid #212121; border-style: dotted; float: right; margin-top: 15px; }
